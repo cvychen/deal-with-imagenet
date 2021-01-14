@@ -72,7 +72,7 @@ imagenet 数据集很大，常规浏览器下载很慢。以下建议：
 三、使用 `pytorch` 将图片导入
 ----
 处理过程：\
-运行 ```bash valprep.sh```\
+运行 ```python loadData.py```\
 此时代码中，使用 `datasets.ImageFolder` 导入数据集，将 `path` 改为 imagenet 所在路径即可，imagenet 文件夹中需要含有 train、val 和 test 三个数据文件。
 
 `datasets.ImageFolder`需要从子文件夹中读取数据，所以每个类别的数据需要放在一个文件夹中。
