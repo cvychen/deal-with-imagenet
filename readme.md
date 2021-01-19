@@ -61,7 +61,7 @@ imagenet 数据集很大，常规浏览器下载很慢。以下建议：
 （3）解压出来全部图片; \
 运行 `python valprep.py` \
 （4）根据 `Development kit(Task 1 & 2)` 中的文件对 val 数据集图片进行归档.
->>关于测试机 `bash testprep.sh`
+>>关于测试集 `bash testprep.sh`
 
 处理过程：\
 运行 ```bash testprep.sh```\
